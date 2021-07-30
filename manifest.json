@@ -1,0 +1,8 @@
+{
+	"name": "Sauce Converter",
+	"version": "0.1",
+	"description": "Make numbers clickable in a minimal way",
+	"author": "Scraft161",
+	"license": "GPLv3",
+	"nsfw": true
+}
