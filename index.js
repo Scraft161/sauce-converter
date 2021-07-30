@@ -7,7 +7,7 @@ module.exports = class SauceConverter extends Plugin {
 			description: 'Convert the numbers to a full link',
 			usage: '{c} [numbers to convert]',
 			executor: (args) => ({
-				send: false,
+				send: true,
 				result: args.forEach(numSet => {
 					return 'https://nhentai.net/g/' + numSet;
 				})
